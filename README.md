@@ -1,16 +1,22 @@
-# package_name
+# image-processing
 
 Description. 
-The package package_name is used to:
-	- 
-	-
-
+The package image-processing is used to wrapper some functions of scikit image for ease of use, so the package features are:
+    Structure:
+        - Histogram matching 
+        - Structural similarity 
+        - Resize image
+        - Drawing the image
+    Utils:
+        - Read image
+        - Save image
+        - Plot image
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image-processing
 
 ```bash
-pip install package_name
+pip install image-processing
 ```
 
 ## Usage
