@@ -1,26 +1,28 @@
 # ease-image-processing
 
-Description. 
+## Description. 
+
 The package ease-image-processing is used to wrapper some functions of scikit image for ease of use, so the package features are:
 
-    Structure:
 
-        - Histogram matching 
+- Structure:
 
-        - Structural similarity 
+  - Histogram matching 
 
-        - Resize image
+  - Structural similarity 
 
-        - Drawing the image
+  - Resize image
 
-    Utils:
+  - Drawing the image
 
-        - Read image
+- Utils:
 
+  - Read image
 
-        - Save image
+  - Save image
 
-        - Plot image
+  - Plot image
+
 But the main goal of this project is to learn the main structures of a python package.
 
 ## Installation
@@ -56,11 +58,11 @@ graphics.plot_image(draw_real)
 
 ## Add content 
 
-- (Setuptools documentation)[https://setuptools.readthedocs.io/en/latest/setuptools.html]
+- [Setuptools documentation](https://setuptools.readthedocs.io/en/latest/setuptools.html)
 
-- (Automated tests)[https://docs.pytest.org/en/latest/goodpractices.html]
+- [Automated tests](https://docs.pytest.org/en/latest/goodpractices.html)
 
-- (Use of Tox)[https://tox.readthedocs.io/en/latest/]
+- [Use of Tox](https://tox.readthedocs.io/en/latest/)
 
 Tox is for use automated tests in differents versions of Python.
 
