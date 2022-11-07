@@ -6,22 +6,21 @@ The package ease-image-processing is used to wrapper some functions of scikit im
 
 Structure:
 
-    - Histogram matching 
+- Histogram matching 
 
-    - Structural similarity 
+- Structural similarity 
 
-    - Resize image
+- Resize image
 
-    - Drawing the image
+- Drawing the image
 
 Utils:
 
-    - Read image
+- Read image
 
+- Save image
 
-    - Save image
-
-    - Plot image
+- Plot image
 
 But the main goal of this project is to learn the main structures of a python package.
 
