@@ -10,3 +10,8 @@ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/* -u 
 
 Upando no PyPi:
 python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/* -u 'user' -p 'password'
+
+Verificando import name de um pacote:
+from johnnydep import JohnnyDist
+dist = JohnnyDist("ease-image-processing")
+dist.import_image

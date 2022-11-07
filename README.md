@@ -37,10 +37,11 @@ pip install ease-image-processing
 
 ```python
 #Import libs and images:
-from structure import combination, transformation
-from utils import io, graphics
-barca = io.read_image('../image/barcelona.png')
-real = io.read_image('../image/real.png')
+from easeimage.structure import combination, transformation
+from easeimage.utils import io, graphics
+barca = io.read_image('image/barcelona.png')
+real = io.read_image('image/real.png')
+inter = io.read_image('image/inter.jpg')
 
 # Combining Barcelona and Real Madrid symbols:
 real_barca = combination.transfer_histogram(real, barca)
@@ -51,9 +52,8 @@ graphics.plot_result(real, barca, real_barca)
 graphics.plot_histogram(real_barca)
 
 # Drawing Real symbol:
-draw_real = transformation.image_to_draw(real)
-graphics.plot_image(draw_real)
-
+draw_inter = transformation.image_to_draw(inter)
+graphics.plot_image(draw_inter)
 ```
 
 ## Add content 

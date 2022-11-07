@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name = "ease-image-processing",
-    version = "0.0.2",
+    version = "0.0.4",
     author = "Vítor Pereira",
     author_email = "vitorpereira3115@gmail.com",
     description = "A wrapper of scikit image for ease of use",
