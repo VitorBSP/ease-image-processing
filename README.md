@@ -4,7 +4,6 @@
 
 The package ease-image-processing is used to wrapper some functions of scikit image for ease of use, so the package features are:
 
-
 - Structure:
 
   - Histogram matching 
@@ -22,6 +21,7 @@ The package ease-image-processing is used to wrapper some functions of scikit im
   - Save image
 
   - Plot image
+
 
 But the main goal of this project is to learn the main structures of a python package.
 
