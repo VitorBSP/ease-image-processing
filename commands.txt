@@ -1,0 +1,12 @@
+Estrutura do pacote:
+python -m pip install --upgrade pip
+python -m pip install --user twine
+python -m pip install --user setuptools
+pip install wheel
+python setup.py sdist bdist_wheel
+
+Upando no test PyPi:
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/* -u 'user' -p 'password'
+
+Upando no PyPi:
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/* -u 'user' -p 'password'
