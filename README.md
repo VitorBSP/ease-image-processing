@@ -51,7 +51,7 @@ graphics.plot_image(real_barca)
 graphics.plot_result(real, barca, real_barca)
 graphics.plot_histogram(real_barca)
 
-# Drawing Real symbol:
+# Drawing Inter symbol:
 draw_inter = transformation.image_to_draw(inter)
 graphics.plot_image(draw_inter)
 ```
